@@ -18,6 +18,10 @@ a:hover {
     text-decoration: underline solid rgba(187, 190, 192, 0.713);
 }
 
+a:visited {
+    color: #b9b9b9;
+}
+
 li {
     display: inline;
     margin: auto 2%;
