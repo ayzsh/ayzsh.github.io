@@ -20,7 +20,7 @@ a:hover {
 
 li {
     display: inline;
-    margin: auto 20px;
+    margin: auto 2%;
 }
 
 .index-bar {
@@ -31,6 +31,23 @@ li {
     padding: 8px;
     margin: 8px auto;
     text-align: center;
-    border: 1px solid beige;
+    border: 1px solid rgba(188, 188, 157, 0.673);
     border-radius: 20px;
+}
+
+.page {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+img {
+    float: left;
+    border-radius: 20px;
+    margin: auto 15px 15px;
+    border: 1px solid rgba(255, 228, 196, 0.662);
+}
+
+p {
+    color: rgb(239, 222, 202);
 }
