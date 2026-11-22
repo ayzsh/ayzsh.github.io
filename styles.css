@@ -56,7 +56,7 @@ footer {
 
 .hero {
     display: flex;
-    flex: 1;
+    flex: 2;
     background-color: #1F2937;
     color: white;
     align-items: center;
@@ -88,7 +88,6 @@ img {
 .hero-content {
     display: flex;
     flex-direction: column;
-    height: 100%;
     gap: 1rem;
 }
 
@@ -109,9 +108,45 @@ button {
 }
 
 .hero button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 30px;
-    border-radius: 8px;
     border: none;
     background-color: #3882F6;
+}
+
+.cta {
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: ;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 8px;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    padding: 32px 150px;
+    gap: 16px;
+}
+
+.cta button {
+    background-color: #3882F6;
+    border-color: white;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    flex-shrink: 0;
 }
