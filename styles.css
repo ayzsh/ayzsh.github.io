@@ -54,3 +54,64 @@ footer {
     align-items: center;
 }
 
+.hero {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-container {
+    display: flex;
+    width: 70%;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+}
+
+.image {
+    border: 1px solid white;
+    align-items: center;
+    display: flex;
+    width: 400px;
+    height: 175px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    border-radius: 8px;
+}
+
+.hero button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3882F6;
+}
